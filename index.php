@@ -14,10 +14,10 @@
 
 		<header>
 			  <div class="logo">
-			      <img src="images/logo.gif" alt="logo" />
+			      <a href="index.php"> <img src="images/logo.gif" alt="logo" /></a>
 		      </div>
 		      <div class="titular">
-		      	<div> <h1>Venta de autos</h1></div>
+		      	 <h1>Venta de autos</h1>
 		      </div>
 		      <div class="links">
 		   
@@ -27,7 +27,7 @@
 
 				           <li> <a href="#">INICIO</a></li>
 				           <li> <a href="#">CONTACTO</a></li>
-				           <li> <a href="#">ADMINISTRACIÓN</a></li>
+				           <li> <a href="listado.php">ADMINISTRACIÓN</a></li>
 
 			            </ul>
 
@@ -37,18 +37,21 @@
 
 	    <section>
 		  
-		   <article class="include">
+		   	<article class="include">
 					 <h2> 
 					 	Busca el auto que querés por marca o modelo
 					 </h2>	 	
-			 <?php include ("form_busqueda.php"); ?>
+			 	<?php include ("form_busqueda.php"); ?>
 
-		   </article>
+		  	 </article>
 
 		  
 
 		</section>
-		<footer></footer>
+
+		<footer>
+			
+		</footer>
 		
 	</body>
 	
